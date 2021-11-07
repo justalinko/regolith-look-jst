@@ -4,6 +4,12 @@ I'm just bored.
 
 <img src="https://raw.githubusercontent.com/justalinko/regolith-look-jst/master/screenshot.png">
 
+> ## run on screen 
+> - Regolith-Linux ( regolith-look-jst )
+> - Cava
+> - Ncmpcpp
+> - Cmatrix
+> - Ranger
 
 ## Installation
 
