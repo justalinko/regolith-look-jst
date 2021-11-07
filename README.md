@@ -2,6 +2,9 @@
 Regolith Linux - i3wm JST themes configuration
 I'm just bored.
 
+<img src="screnshoot.png">
+
+
 ## Installation
 
 - .deb repositories
