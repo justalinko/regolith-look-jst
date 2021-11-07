@@ -6,7 +6,7 @@ I'm just bored.
 
 - .deb repositories
 ``` 
-wget https:// && sudo dpkg i 
+wget https://github.com/justalinko/regolith-look-jst/raw/master/regolith-look-jst_1.0.deb && sudo dpkg i regolith-look-jst_1.0.deb 
 ```
 
 - source
