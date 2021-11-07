@@ -2,7 +2,7 @@
 Regolith Linux - i3wm JST themes configuration
 I'm just bored.
 
-<img src="screnshoot.png">
+<img src="https://raw.githubusercontent.com/justalinko/regolith-look-jst/master/screenshot.png">
 
 
 ## Installation
