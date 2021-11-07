@@ -1,0 +1,119 @@
+/* Originally created by Aditya Shakya (adi1090x@gmail.com)
+ * https://github.com/adi1090x/polybar-themes/blob/master/simple/grayblocks/scripts/rofi/launcher.rasi
+ * modified for Regolith by naib864 (naib864@naib.top)
+ * modified for regolith-look-jst by justalinko ( github.com/justalinko )
+ */
+
+configuration {
+	font:							"Iosevka Nerd Font 12";
+    show-icons:                     true;
+    drun-display-format:            "{name}";
+    disable-history:                false;
+    fullscreen:                     false;
+	hide-scrollbar: 				true;
+	sidebar-mode: 					false;
+}
+
+/* colors */
+
+ * {
+   al:   #2c3e50;
+   bg:   #34495e;
+   bga:  #95a5a6;
+   fga:  #cacaca;
+   fg:   #eeeeee;
+   ac:   #95a5a6;
+ }
+
+window {
+    transparency:                   "real";
+    background-color:               @bg;
+    text-color:                     @fg;
+	border:							1px;
+	border-color:					@ac;
+    border-radius:                  4px;
+	width:							600px;
+    location:                       center;
+    x-offset:                       0;
+    y-offset:                       0;
+}
+
+prompt {
+    enabled: 						true;
+	padding: 						2px 0px 0px 4px;
+	background-color: 				@al;
+	text-color: 					@fg;
+	font:							"Ubuntu Mono 15";
+}
+
+entry {
+    background-color:               @al;
+    text-color:                     @fg;
+    placeholder-color:              @fg;
+    expand:                         true;
+    horizontal-align:               0;
+    placeholder:                    "What u need ...";
+	padding: 						0px 0px 0px 6px;
+    blink:                          true;
+}
+
+inputbar {
+	children: 						[ prompt, entry ];
+    background-color:               @bga;
+    text-color:                     @fg;
+    expand:                         false;
+	border:							1px;
+    border-radius:                  3px;
+	border-color:					@ac;
+    margin:                         3px;
+    padding:                        2px;
+}
+
+listview {
+    background-color:               @al;
+    padding:                        0px;
+    columns:                        2;
+    lines:                          8;
+    spacing:                        6px;
+    cycle:                          true;
+    dynamic:                        true;
+    layout:                         vertical;
+}
+
+mainbox {
+    background-color:               @al;
+	border:							0px;
+    border-radius:                  0px;
+	border-color:					@ac;
+    children:                       [ inputbar, listview ];
+    spacing:                       	6px;
+    padding:                        6px;
+}
+
+element {
+    background-color:               @al;
+    text-color:                     @fga;
+    orientation:                    horizontal;
+    border-radius:                  0px;
+    padding:                        8px;
+}
+
+element-icon {
+    size:                           24px;
+    border:                         0px;
+}
+
+element-text {
+    expand:                         true;
+    horizontal-align:               0;
+    vertical-align:                 0.5;
+    margin:                         0px 2.5px 0px 2.5px;
+}
+
+element selected {
+    background-color:               @bg;
+    text-color:                     @fg;
+	border:							1px;
+    border-radius:                  3px;
+    border-color:                  	@ac;
+}

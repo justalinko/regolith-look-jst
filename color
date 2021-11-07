@@ -1,0 +1,17 @@
+! https://flatuicolors.com/palette/defo
+#define color_base03   #34495e
+#define color_base02   #2c3e50
+#define color_base01   #95a5a6
+#define color_base00   #7f8c8d
+#define color_base0    #ecf0f1
+#define color_base1    #bdc3c7
+#define color_base2    #CCCCCC
+#define color_base3    #878787
+#define color_yellow   #f1c40f
+#define color_orange   #e67e22
+#define color_red      #e74c3c
+#define color_magenta  #f368e0
+#define color_violet   #9b59b6
+#define color_blue     #2980b9
+#define color_cyan     #48dbfb
+#define color_green    #2ecc71
